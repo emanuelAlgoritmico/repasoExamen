@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.edu.uvpalmira.fpoe.exfinal.backend.dao.EditorialDAOTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-06-10T03:49:14" hostname="DESKTOP-3IEHN98" time="3.036">
+  <properties/>
+  <testcase name="test" classname="co.edu.uvpalmira.fpoe.exfinal.backend.dao.EditorialDAOTest" time="3.036"/>
+  <system-out><![CDATA[[EL Info]: 2026-06-09 22:49:16.448--ServerSession(533053618)--EclipseLink, version: Eclipse Persistence Services - 4.0.2.v202306161219
+[EL Warning]: 2026-06-09 22:49:17.795--ServerSession(533053618)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 4.0.2.v202306161219): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLSyntaxErrorException: Table 'fpoedb.libro' doesn't exist
+Error Code: 1146
+Call: INSERT INTO libro (autor, estado, isbn, titulo, editorial_id) VALUES ('Daniela Violi', 'DISPONIBLE', 9788417400989, 'Sé un algoritmo irrepetible', 2);
+Query: DataModifyQuery(sql="INSERT INTO libro (autor, estado, isbn, titulo, editorial_id) VALUES ('Daniela Violi', 'DISPONIBLE', 9788417400989, 'Sé un algoritmo irrepetible', 2);")
+[EL Warning]: 2026-06-09 22:49:17.82--ServerSession(533053618)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 4.0.2.v202306161219): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLSyntaxErrorException: Table 'fpoedb.libro' doesn't exist
+Error Code: 1146
+Call: INSERT INTO libro (autor, estado, isbn, titulo, editorial_id) VALUES ('Francisco Leal Quevedo, Amalia Leal Córdoba', 'DISPONIBLE', 9789583068317, '¿A dónde viajan los gatos?', 2);
+Query: DataModifyQuery(sql="INSERT INTO libro (autor, estado, isbn, titulo, editorial_id) VALUES ('Francisco Leal Quevedo, Amalia Leal Córdoba', 'DISPONIBLE', 9789583068317, '¿A dónde viajan los gatos?', 2);")
+[EL Warning]: 2026-06-09 22:49:17.828--ServerSession(533053618)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 4.0.2.v202306161219): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLSyntaxErrorException: Table 'fpoedb.libro' doesn't exist
+Error Code: 1146
+Call: INSERT INTO libro (autor, estado, isbn, titulo, editorial_id) VALUES ('Consuelo Lago', 'DISPONIBLE', 9786287542198, 'NIEVES 55 AÑOS', 3);
+Query: DataModifyQuery(sql="INSERT INTO libro (autor, estado, isbn, titulo, editorial_id) VALUES ('Consuelo Lago', 'DISPONIBLE', 9786287542198, 'NIEVES 55 AÑOS', 3);")
+[EL Warning]: 2026-06-09 22:49:17.835--ServerSession(533053618)--Exception [EclipseLink-4002] (Eclipse Persistence Services - 4.0.2.v202306161219): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLSyntaxErrorException: Table 'fpoedb.libro' doesn't exist
+Error Code: 1146
+Call: INSERT INTO libro (autor, estado, isbn, titulo, editorial_id) VALUES ('Murray Cooper', 'DISPONIBLE', 9789588818368, 'COLIBRÍES EN COLOMBIA', 3);
+Query: DataModifyQuery(sql="INSERT INTO libro (autor, estado, isbn, titulo, editorial_id) VALUES ('Murray Cooper', 'DISPONIBLE', 9789588818368, 'COLIBRÍES EN COLOMBIA', 3);")
+Buscar
+id: 1113
+Buscar: 1113
+Actualizar: 1113
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
